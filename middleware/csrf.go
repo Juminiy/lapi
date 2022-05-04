@@ -6,9 +6,9 @@ import (
 	"github.com/gofiber/fiber/v2/middleware/csrf"
 	"github.com/gofiber/fiber/v2/utils"
 	"time"
-	envConfig "zhaoxin-api/config"
-	"zhaoxin-api/storage"
-	envUtils "zhaoxin-api/utils"
+	envConfig "lapi/config"
+	"lapi/storage"
+	envUtils "lapi/utils"
 )
 const (
 	CsrfStoreRedisPrefix = "CSRF_STORE:"

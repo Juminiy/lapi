@@ -3,7 +3,7 @@ package storage
 import (
 	"github.com/go-redis/redis"
 	"strconv"
-	"zhaoxin-api/config"
+	"lapi/config"
 )
 
 var (

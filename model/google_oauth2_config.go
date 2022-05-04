@@ -2,7 +2,7 @@ package model
 
 import (
 	"golang.org/x/oauth2"
-	envConfig "zhaoxin-api/config"
+	envConfig "lapi/config"
 )
 
 var (

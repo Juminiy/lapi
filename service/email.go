@@ -3,7 +3,7 @@ package service
 import (
 	"log"
 	"net/smtp"
-	envConfig "zhaoxin-api/config"
+	envConfig "lapi/config"
 )
 
 var (

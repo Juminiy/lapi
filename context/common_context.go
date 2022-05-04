@@ -8,12 +8,12 @@ import (
 	"runtime"
 	"strings"
 	"time"
-	"zhaoxin-api/config"
-	"zhaoxin-api/middleware"
-	"zhaoxin-api/model"
-	"zhaoxin-api/service"
-	"zhaoxin-api/storage"
-	"zhaoxin-api/utils"
+	"lapi/config"
+	"lapi/middleware"
+	"lapi/model"
+	"lapi/service"
+	"lapi/storage"
+	"lapi/utils"
 )
 
 
@@ -28,7 +28,7 @@ func ApiInfoContext(ctx *fiber.Ctx) error {
 	return utils.OkResponse(ctx,fiber.Map{
 		"goVersion":         runtime.Version(),
 		"description":     	 config.Config("APP_NAME"),
-		"author":           "Alan",
+		"author":           "Chisato",
 		"time":				"2022.3.10",
 	})
 }

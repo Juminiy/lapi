@@ -25,7 +25,7 @@ var SwaggerInfo = &swag.Spec{
 	BasePath:         "/docs",
 	Schemes:          []string{},
 	Title:            "lapi_docs",
-	Description:      "2084Dev Alan",
+	Description:      "2084Dev Chisato",
 	InfoInstanceName: "swagger",
 	SwaggerTemplate:  docTemplate,
 }

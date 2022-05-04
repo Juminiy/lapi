@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"github.com/dgrijalva/jwt-go"
 	"time"
-	envConfig "zhaoxin-api/config"
+	envConfig "lapi/config"
 )
 
 // JWT Header Payload Signature

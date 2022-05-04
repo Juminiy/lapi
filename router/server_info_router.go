@@ -3,7 +3,7 @@ package router
 
 import (
 "github.com/gofiber/fiber/v2"
-"zhaoxin-api/context"
+"lapi/context"
 )
 
 func InfoBaseApi(infoBase fiber.Router) {

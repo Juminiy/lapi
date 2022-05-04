@@ -6,10 +6,10 @@ import (
 	"github.com/gofiber/fiber/v2/middleware/cache"
 	"github.com/gofiber/fiber/v2/utils"
 	"time"
-	"zhaoxin-api/config"
-	"zhaoxin-api/middleware"
-	"zhaoxin-api/router"
-	"zhaoxin-api/storage"
+	"lapi/config"
+	"lapi/middleware"
+	"lapi/router"
+	"lapi/storage"
 )
 const (
 	CacheServerRedisPrefix = "SERVER_CACHE:"

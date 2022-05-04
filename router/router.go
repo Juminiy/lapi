@@ -3,9 +3,9 @@ package router
 import (
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/proxy"
-	"zhaoxin-api/config"
-	"zhaoxin-api/context"
-	"zhaoxin-api/mix_develop"
+	"lapi/config"
+	"lapi/context"
+	"lapi/mix_develop"
 )
 
 func RestApi(app *fiber.App){

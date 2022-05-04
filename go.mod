@@ -1,4 +1,4 @@
-module zhaoxin-api
+module lapi
 
 go 1.17
 

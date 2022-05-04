@@ -2,7 +2,7 @@ package storage
 
 import (
 	"github.com/aliyun/aliyun-oss-go-sdk/oss"
-	"zhaoxin-api/config"
+	"lapi/config"
 )
 
 var (

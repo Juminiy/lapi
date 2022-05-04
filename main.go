@@ -1,10 +1,10 @@
 package main
 
 import (
+	"lapi/config"
+	_ "lapi/docs"
+	"lapi/server"
 	"log"
-	"zhaoxin-api/config"
-	_ "zhaoxin-api/docs"
-	"zhaoxin-api/server"
 )
 func main() {
 	app := server.InitServer()

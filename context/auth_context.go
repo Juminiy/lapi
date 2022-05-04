@@ -5,10 +5,10 @@ import (
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/basicauth"
 	"github.com/gofiber/fiber/v2/middleware/session"
-	"zhaoxin-api/config"
-	"zhaoxin-api/middleware"
-	"zhaoxin-api/model"
-	"zhaoxin-api/utils"
+	"lapi/config"
+	"lapi/middleware"
+	"lapi/model"
+	"lapi/utils"
 )
 
 // OAuth2.0 github code
@@ -121,11 +121,11 @@ func OAUTHGoogleDisconnect(ctx *fiber.Ctx) error {
 func BasicAuth(ctx *fiber.Ctx) error {
 	basicauth.New(basicauth.Config{
 		Users: map[string]string{
-			"alan@2084team.com":"2084team-zhaoxin-api-admin",
+			"Chisato@2084team.com":"2084team-lapi-admin",
 		},
 		Realm: "Admin",
 		Authorizer: func(user,pass string) bool {
-			if user == "alan@2084team.com" && pass == "2084team-zhaoxin-api-admin" {
+			if user == "Chisato@2084team.com" && pass == "2084team-lapi-admin" {
 				return true
 			} else {
 				return false

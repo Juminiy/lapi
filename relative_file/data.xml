@@ -4,7 +4,7 @@
 <!--        <restServer>-->
 <!--            <version>v1</version>-->
 <!--            <description>2084team zhaoxin_api</description>-->
-<!--            <author>Alan</author>-->
+<!--            <author>Chisato</author>-->
 <!--            <time>2021.09.23</time>-->
 <!--        </restServer>-->
 <!--        <Server>-->
@@ -14,7 +14,7 @@
 <!--</servers>-->
 <restServer>
     <version>v1</version>
-    <description>2084team zhaoxin_api</description>
-    <author>Alan</author>
-    <time>2021.09.23</time>
+    <description>LAPI</description>
+    <author>Chisato</author>
+    <time>2022.05.05</time>
 </restServer>

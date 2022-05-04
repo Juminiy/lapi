@@ -1,7 +1,7 @@
 package model
 
 import (
-	envConfig "zhaoxin-api/config"
+	envConfig "lapi/config"
 )
 
 var (

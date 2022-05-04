@@ -3,7 +3,7 @@ package config
 import (
 	"github.com/gofiber/fiber/v2"
 	"os"
-	"zhaoxin-api/utils"
+	"lapi/utils"
 )
 
 var ServerConfigs = fiber.Config{

@@ -5,8 +5,8 @@ import (
 	"github.com/gofiber/fiber/v2/middleware/session"
 	"github.com/gofiber/fiber/v2/utils"
 	"time"
-	envConfig "zhaoxin-api/config"
-	"zhaoxin-api/storage"
+	envConfig "lapi/config"
+	"lapi/storage"
 )
 
 const (
