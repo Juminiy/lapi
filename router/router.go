@@ -5,7 +5,6 @@ import (
 	"github.com/gofiber/fiber/v2/middleware/proxy"
 	"lapi/config"
 	"lapi/context"
-	"lapi/mix_develop"
 )
 
 func RestApi(app *fiber.App){

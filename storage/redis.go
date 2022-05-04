@@ -2,8 +2,8 @@ package storage
 
 import (
 	"github.com/go-redis/redis"
-	"strconv"
 	"lapi/config"
+	"strconv"
 )
 
 var (

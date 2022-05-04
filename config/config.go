@@ -2,8 +2,8 @@ package config
 
 import (
 	"github.com/gofiber/fiber/v2"
-	"os"
 	"lapi/utils"
+	"os"
 )
 
 var ServerConfigs = fiber.Config{

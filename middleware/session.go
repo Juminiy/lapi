@@ -4,9 +4,9 @@ import (
 	"github.com/go-redis/redis"
 	"github.com/gofiber/fiber/v2/middleware/session"
 	"github.com/gofiber/fiber/v2/utils"
-	"time"
 	envConfig "lapi/config"
 	"lapi/storage"
+	"time"
 )
 
 const (

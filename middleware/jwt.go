@@ -4,8 +4,8 @@ import (
 	"errors"
 	"fmt"
 	"github.com/dgrijalva/jwt-go"
-	"time"
 	envConfig "lapi/config"
+	"time"
 )
 
 // JWT Header Payload Signature

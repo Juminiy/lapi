@@ -5,11 +5,11 @@ import (
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/cache"
 	"github.com/gofiber/fiber/v2/utils"
-	"time"
 	"lapi/config"
 	"lapi/middleware"
 	"lapi/router"
 	"lapi/storage"
+	"time"
 )
 const (
 	CacheServerRedisPrefix = "SERVER_CACHE:"

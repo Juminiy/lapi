@@ -2,8 +2,8 @@ package router
 
 
 import (
-"github.com/gofiber/fiber/v2"
-"lapi/context"
+	"github.com/gofiber/fiber/v2"
+	"lapi/context"
 )
 
 func InfoBaseApi(infoBase fiber.Router) {

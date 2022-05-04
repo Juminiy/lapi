@@ -1,9 +1,9 @@
 package service
 
 import (
+	envConfig "lapi/config"
 	"log"
 	"net/smtp"
-	envConfig "lapi/config"
 )
 
 var (
