@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c088a510-4366-4f50-b92e-8a658da4520e" name="alan_bce_cloud_server">
+        <fileTransfer accessType="SFTP" host="106.13.71.206" port="22" sshConfigId="239d3c01-e241-4b1c-9960-44b03af26bea" sshConfig="root@106.13.71.206:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--<servers version="1">-->
+<!--    <apiServer>-->
+<!--        <restServer>-->
+<!--            <version>v1</version>-->
+<!--            <description>2084team zhaoxin_api</description>-->
+<!--            <author>Alan</author>-->
+<!--            <time>2021.09.23</time>-->
+<!--        </restServer>-->
+<!--        <Server>-->
+
+<!--        </Server>-->
+<!--    </apiServer>-->
+<!--</servers>-->
+<restServer>
+    <version>v1</version>
+    <description>2084team zhaoxin_api</description>
+    <author>Alan</author>
+    <time>2021.09.23</time>
+</restServer>

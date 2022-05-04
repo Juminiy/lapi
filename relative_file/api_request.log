@@ -1,0 +1,31 @@
+   TIME     |PID |STATUS|METHOD|PATH
+
+10-Oct-12010|8252|200 - GET|/v1/info/xml
+10-Oct-12010|25784|200 - GET|/v1/info/xml
+10-Oct-12010|25744|200 - GET|/v1/info/xml
+10-Oct-12010|25744|200 - GET|/v1/info/xml
+10-Oct-12010|25744|200 - GET|/dashboard'
+10-Oct-12010|25744|200 - GET|/
+10-Oct-12010|25744|200 - GET|/favicon.ico
+10-Oct-12010|25744|200 - GET|/
+10-Oct-12010|25744|200 - GET|/favicon.ico
+10-Oct-12010|25744|200 - GET|/
+10-Oct-12010|25744|200 - GET|/favicon.ico
+10-Oct-12010|25744|200 - GET|/
+10-Oct-12010|25744|200 - GET|/favicon.ico
+10-Oct-12010|25744|200 - GET|/
+10-Oct-12010|25744|200 - GET|/favicon.ico
+10-Oct-12010|25744|200 - GET|/
+10-Oct-12010|25744|200 - GET|/favicon.ico
+10-Oct-12010|25744|200 - GET|/
+10-Oct-12010|25744|200 - GET|/favicon.ico
+10-Oct-12010|25744|200 - GET|/
+10-Oct-12010|25744|200 - GET|/favicon.ico
+10-Oct-12010|17696|200 - POST|/v1/auth/local/login
+10-Oct-12010|17696|200 - POST|/v1/auth/local/login
+10-Oct-12010|17696|200 - POST|/v1/desktop/shutdown
+10-Oct-12010|17696|200 - POST|/v1/desktop/shutdown
+10-Oct-13010|11988|200 - POST|/v1/desktop/shutdown
+10-Oct-18010|604|200 - GET|/v1/dk/runtime/ping
+10-Oct-18010|604|200 - GET|/v1/dk/runtime/ping
+10-Oct-18010|604|200 - GET|/v1/dk/runtime/ping
