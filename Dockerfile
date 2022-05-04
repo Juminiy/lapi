@@ -1,4 +1,3 @@
-# Pysical Machine,Virtual Machine,Linux OS
 FROM alpine:latest
 MAINTAINER Chisato
 ENV VERSION 1.0

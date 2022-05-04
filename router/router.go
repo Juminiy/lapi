@@ -26,9 +26,6 @@ func RestApi(app *fiber.App){
 	utilsBase := apiVersion_1.Group("/utils")
 	UtilsBaseApi(utilsBase)
 
-	stuBase := apiVersion_1.Group("/stu")
-	mix_develop.StuBaseApi(stuBase)
-
 	// path notfound
 	app.Use(context.NotFoundContext)
 }
