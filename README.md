@@ -43,11 +43,10 @@
    2. oauth2 google
    3. oauth2 weibo
 2. 认证
-   1. 两阶段提交验证
-      1. 邮箱验证码
-      2. 绑定任意一个第三方平台
-      3. 支持短信
-      4. authz -> 0auth
+   两阶段提交验证
+   1. 邮箱验证码
+   2. 绑定任意一个第三方平台
+   3. 支持短信
 3. 存储
    1. etcd
    2. rabbitmq
@@ -56,15 +55,13 @@
    1. acl
    2. rbac
 5. 微服务
-   1. proxy nginx envoy 
-   2. gateway 
-   3. grafana
-   4. config
-   5. go-micro
+   1. envoy 
+   2. gateway
+   3. go-micro
 6. 部署运维
    1. 自动伸缩，自动重启
-   2. 容器部署，k8s hybrid-cloud
-   3. 数据冗余，本地和服务器主从
+   2. 容器部署，Docker单机,暂不支持K8s
+   3. 分布式，暂不支持K8s 
 7. 修改工程
    1. 去掉etcd.io dependency
    2. gorm sqlite3 -> mysql 
